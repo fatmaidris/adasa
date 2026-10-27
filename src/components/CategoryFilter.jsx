@@ -5,7 +5,8 @@ export default function CategoryFilter({
   selectedCategory = 'all',
   totalCount = 0,
   onSelectCategory,
-}) {
+}) 
+{
   return (
     <div className="category-buttons-row" role="group" aria-label="تصفية المقالات حسب التصنيف">
       <button
